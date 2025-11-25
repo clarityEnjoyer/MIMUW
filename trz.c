@@ -1,7 +1,5 @@
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <limits.h>
 
 #define max(a, b)(a < b ? b : a)
@@ -116,3 +114,4 @@ signed main() {
     free(typy);
     free(motele);
 }
+
